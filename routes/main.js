@@ -7,4 +7,4 @@ mainRoute.get("/", (req, res) => {
     res.header("Content-Type", "text/html").send(data);
   });
 });
-module.exports = mainRoute;
+module.exports = mainRoute; 
