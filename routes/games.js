@@ -1,3 +1,5 @@
+// routes/games.js
+const gamesRouter = require("express").Router(); // Создали роутер
 const {
     getAllGames,
     checkIsTitleInArray,
